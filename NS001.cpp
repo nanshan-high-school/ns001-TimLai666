@@ -2,7 +2,6 @@
 #include <stack>
 using namespace std;
 void goodjack(int, int); // 小克
-void output(int, int); // 輸出
 
 int main() {
     int n = 0, m = 0;
@@ -46,12 +45,7 @@ void goodjack(int n, int m) {
         }
     }
 
-    //output(outputer[], k); 
-//}
-
-
-// 輸出
-//void output(int outputer[], int k) {
+    // 輸出
     cout << "拿出的書編號依序為：";
     for(int i = 0; i < k; i++) {
         printf("%i ", outputer[i]);
